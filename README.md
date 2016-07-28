@@ -1,6 +1,6 @@
 # Katas to complete with TDD
 
-These katas are taken from [codewars.com]() and are to be completed with TDD. In some cases the descriptions have been modified so please read the README in each directory for instructions.
+Most of these katas are taken from [codewars.com](codewars.com) and are to be completed with TDD. In some cases the descriptions have been modified so please read the README in each directory for instructions.
 
 The dependencies you are likely to need for this project are listed in the package.json file. You will need to set up your tests yourself.
 
