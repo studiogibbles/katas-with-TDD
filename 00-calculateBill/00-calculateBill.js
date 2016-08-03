@@ -4,7 +4,7 @@ function calculateBill (bill,vatRate, tipRate) {
 
   tipRate = +tipRate /100 * +bill;
 
-  return '£' + (+bill + vatRate + tipRate).toFixed(2);
+  return '£' + (+bill + +vatRate + +tipRate).toFixed(2);
 
 
 

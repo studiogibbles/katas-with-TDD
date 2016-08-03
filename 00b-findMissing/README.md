@@ -1,6 +1,7 @@
 ### Find The Missing Number
 
-Write a function that takes an array of 9 numbers and finds the missing number.
+Write a function that takes an 
+array of 9 numbers and finds the missing number.
 
 
 #### Examples
