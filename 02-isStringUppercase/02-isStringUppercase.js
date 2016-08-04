@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 var stringUpper = function(string){
   var result = false;
 
@@ -19,4 +18,4 @@ return result;
 };
 
 module.exports=stringUpper;
->>>>>>> Stashed changes
+
