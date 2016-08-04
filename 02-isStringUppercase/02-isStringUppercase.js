@@ -4,8 +4,7 @@ var stringUpper = function(string){
 
   var regex = /[^A-Za-z]/;
 
-  if(string.match(regex)){
-    // TODO: use regex.test(string) - returns boolean
+  if(regex.test(string)){
   return 'Invalid input';
   }
   if(string === string.toUpperCase()){

@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 import { expect } from 'chai';
 import stringUpper from '../02-isStringUpperCase/02-isStringUpperCase';
 
@@ -25,8 +24,8 @@ describe.only('stringUpper()', function () {
   it('return a false for HeLLo', function () {
     expect(stringUpper('HeLLo')).to.equal(false);
   });
-  // it('return a false for HeLLo', function () {
-  //   expect(stringUpper('He£££Lo')).to.equal('Invalid input');
-  // });
+  it('return a false for HeLLo', function () {
+    expect(stringUpper('He£££Lo')).to.equal('Invalid input');
+  });
 });
->>>>>>> Stashed changes
+
