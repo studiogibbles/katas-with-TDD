@@ -24,7 +24,7 @@ describe.only('stringUpper()', function () {
   it('return a false for HeLLo', function () {
     expect(stringUpper('HeLLo')).to.equal(false);
   });
-  it('return a false for HeLLo', function () {
+  it('return a Invalid Input for He£££Lo', function () {
     expect(stringUpper('He£££Lo')).to.equal('Invalid input');
   });
 });
