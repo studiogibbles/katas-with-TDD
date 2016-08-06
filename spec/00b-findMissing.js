@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import findMissing from '../00b-findmissing/00b-findmissing';
 
-describe.only('findMissing()', function  () {
+describe('findMissing()', function  () {
 
   it('exists', function () {
     expect(findMissing).to.be.a('function');

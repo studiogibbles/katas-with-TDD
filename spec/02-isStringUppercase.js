@@ -2,7 +2,7 @@
 import { expect } from 'chai';
 import stringUpper from '../02-isStringUpperCase/02-isStringUpperCase';
 
-describe.only('stringUpper()', function () {
+describe('stringUpper()', function () {
   it('should be a function', function () {
     expect(stringUpper).to.be.a('function');
   });
