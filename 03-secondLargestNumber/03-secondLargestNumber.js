@@ -1,21 +1,21 @@
-var secondLargestNumber = function (arr){
-
-var result = 0 ;
-
-  for (var i = 0; i < arr.length; i ++){
-
-  }
+var secondLargestNumber = function (arr) {
+// if not number ignore then pass to the sort function
 
 
 
+
+  var result = arr.filter(function(n) {
+    // returns not, not a number, converts string to floating point
+    // and converts floating point to 0dp(non-floating)
+    return !isNaN(parseFloat(n)) && isFinite(n) })
+    .sort(function (a, b) {
+      return b - a
+    }).slice(1, 2).pop();
   return result;
 
 
-//loop through the array
-  // look for the largest number
 
 };
 
 
-
-module.exports =secondLargestNumber;
+module.exports = secondLargestNumber;
