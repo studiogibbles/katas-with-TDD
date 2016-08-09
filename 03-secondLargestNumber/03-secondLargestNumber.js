@@ -1,8 +1,4 @@
 var secondLargestNumber = function (arr) {
-// if not number ignore then pass to the sort function
-
-
-
 
   var result = arr.filter(function(n) {
     // returns not, not a number, converts string to floating point
@@ -12,8 +8,6 @@ var secondLargestNumber = function (arr) {
       return b - a
     }).slice(1, 2).pop();
   return result;
-
-
 
 };
 
