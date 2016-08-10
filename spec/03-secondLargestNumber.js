@@ -2,7 +2,7 @@ import {expect} from 'chai';
 import secondLargestNumber from '../03-secondLargestNumber/03-secondLargestNumber';
 
 
-describe.only('secondLargestNumber()', function () {
+describe('secondLargestNumber()', function () {
   it('should be a function', function () {
     expect(secondLargestNumber).to.be.a('function');
   });
