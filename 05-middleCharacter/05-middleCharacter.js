@@ -1,12 +1,9 @@
 var middleCharacter = function (str){
 
-  var result = "o";
-  if(result < 2){return result}
+  if(str <= 2){return str}
 
-  return result
-
-
-};
+  if(str > 2){return middleCharacter(str.slice(1,-1))};
+  };
 
 
 module.exports=middleCharacter;
