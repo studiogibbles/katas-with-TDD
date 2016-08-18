@@ -1,15 +1,34 @@
-import { expect } from 'chai';
-import surfaceArea from '../01-countingMonkey/01-countingMonkeys';
+var surfaceArea = function (height, width, depth){
 
-describe.only('surfaceArea()', function () {
-  it('should be a function', function () {
-    expect(surfaceArea).to.be.a('function');
-  });
-  it('takes three arguments', function (){
-    expect(surfaceArea.length).to.equal(3)
-  });
-  it('should return an object', function () {
-    var test = {};
-    expect(surfaceArea(test)).to.be.instanceOf(Object)
-  });
-});
+  var  result = {};
+
+
+  var obj = {};
+
+  var height  = obj.height;
+
+  var width = obj.width;
+
+  var depth = obj.depth;
+
+  //surface area
+  var s1 = height * width * 2;
+  var s2 = height * depth * 2;
+  var s3 = width * depth * 2;
+
+  var total = s1 + s2 + s3;
+  console.log(total);
+
+  //volume
+  var volume  = height * width * depth ;
+  console.log(volume);
+
+  var finalObj = {};
+
+
+
+  return result
+
+};
+
+module.exports = surfaceArea;
