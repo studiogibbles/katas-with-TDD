@@ -8,11 +8,8 @@ describe('middleCharacter()', function () {
   it('should take one argument', function () {
     expect(middleCharacter).to.be.a('function');
   });
-  it('returns str if less than 2 return', function (){
-    expect(middleCharacter('o')).to.equal('o')
-  });
-  it('mid char in 3 word str', function (){
-    expect(middleCharacter('toad')).to.equal('oa')
+  it('returns str if less than 2 return', function () {
+    expect(middleCharacter('o')).to.equal('o');
   });
   it('mid char in 3 word str', function (){
     expect(middleCharacter('toad')).to.equal('oa')
