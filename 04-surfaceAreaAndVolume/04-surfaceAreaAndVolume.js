@@ -6,11 +6,9 @@ var surfaceArea = function (data){
   var s3 = data.width * data.depth * 2;
 
   var total = s1 + s2 + s3;
-  console.log(total);
 
   //volume
   var volume  = data.height * data.width * data.depth ;
-  console.log(volume);
   return {
     surfaceArea: total,
     volume: volume
