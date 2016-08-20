@@ -1,16 +1,17 @@
 var sumOfMultiples = function (num, predicate){
 
-  var result = 0;
+  if(arguments[2] === true) {
+    var result = 0;
 
-  for(var i = 0; i < num; i++){
-    if (i % 3 === 0 || i % 5 === 0){
-      result += i;
+    for (var i = 0; i < num; i++) {
+      if (i % 3 === 0 || i % 5 === 0) {
+        result += i;
+      }
     }
+    return result + true;
+  } else{
+    return false;
   }
-
-
-return result;
-
 
 
 
