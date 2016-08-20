@@ -8,9 +8,10 @@ describe.only('sumofMultiples()', function (){
   it('takes two arguments', function (){
     expect(sumOfMultiples.length).to.equal(2);
   });
-  it('returns the sum of multiple if 1st arg is true', function () {
-      expect(sumOfMultiples).to.equal(true);
+  it('returns 23 for 10', function () {
+      expect(sumOfMultiples(10)).to.equal(23);
   });
+
 
 
 
