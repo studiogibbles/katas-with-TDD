@@ -1,8 +1,8 @@
 var prizeDraw = function (array){
   //create a list of objects with the ranks
   //loop through array and ranks
-  //split the array into indvidual letters
-  //
+  //for each item in the array get it's length, loop through the ranks
+  // create new array of single characters using map
 
   var ranks = {
     a:1,
@@ -36,12 +36,10 @@ var prizeDraw = function (array){
 
   var result = "";
 
-  var split = array.split().toLowerCase();
-  console.log(split);
-
-  split.forEach(function (rank) {
-
+  array.forEach(function (item) {
+    array[item]
   });
+
 
 
 
