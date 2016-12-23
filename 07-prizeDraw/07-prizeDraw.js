@@ -1,9 +1,6 @@
 
 function prizeDraw (arr) {
 
- var newArr = arr;
-
-
 var ranks = {
   'a': 1,
   'b': 2,
@@ -38,7 +35,6 @@ function totalScore (arr) {
     return letterScore(name);
   });
   return result;
-
 }
 
 
@@ -62,6 +58,5 @@ function letterScore (name) {
 }
 
 
-console.log(prizeDraw(['jack','anna','zoe']));
 
 module.exports = prizeDraw;

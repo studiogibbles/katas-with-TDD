@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import sumOfMultiples from '../06-sumOfMultiples/06-sumOfMultiples';
 
-describe.only('sumofMultiples()', function (){
+describe('sumofMultiples()', function (){
   it('exists', function (){
     expect(sumOfMultiples).to.be.a('function');
   });

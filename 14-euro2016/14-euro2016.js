@@ -16,8 +16,4 @@ var euro2016 = function (arr1, arr2) {
   }
 };
 
-console.log(euro2016(['Germany', 'Ukraine'], [2,0]));
-console.log(euro2016(['Belgium', 'Italy'], [0, 2]));
-console.log(euro2016(['Portugal', 'Iceland'], [1, 1]));
-
 module.exports=euro2016;

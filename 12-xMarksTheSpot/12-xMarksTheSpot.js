@@ -21,11 +21,6 @@ var xMarks = function (arr) {
 
 };
 
-console.log(xMarks([
-  ['o', 'o', 'o'],
-  ['o', 'o', 'o'],
-  ['x', 'o', 'o']
-]));
 
 
 module.exports = xMarks;

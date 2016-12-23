@@ -19,9 +19,9 @@ var whatTimeIsIt = function (str) {
 
 };
 
-console.log(whatTimeIsIt('12:00:00AM'));
-console.log(whatTimeIsIt('12:00:00PM'));
-console.log(whatTimeIsIt('09:25:11AM'));
-console.log(whatTimeIsIt('06:05:00PM'));
+// console.log(whatTimeIsIt('12:00:00AM'));
+// console.log(whatTimeIsIt('12:00:00PM'));
+// console.log(whatTimeIsIt('09:25:11AM'));
+// console.log(whatTimeIsIt('06:05:00PM'));
 
 module.exports = whatTimeIsIt;

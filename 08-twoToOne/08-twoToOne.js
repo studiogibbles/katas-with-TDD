@@ -20,7 +20,6 @@ var twoToOne = function (str1, str2) {
 
 };
 
-console.log(twoToOne('katie', 'bob'));
-console.log(twoToOne('aacc', 'bcbb'));
+
 
 module.exports = twoToOne;

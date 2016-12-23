@@ -12,6 +12,5 @@ var rearrangeNumber = function (num) {
 };
 
 
-console.log(rearrangeNumber(223));
 
 module.exports=rearrangeNumber;

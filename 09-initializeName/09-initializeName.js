@@ -12,6 +12,5 @@ var intializeName = function (str) {
 
 };
 
-console.log(intializeName('Jack John Micahel Turner Ryan'));
 
 module.exports = intializeName;

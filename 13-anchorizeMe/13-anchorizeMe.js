@@ -5,11 +5,12 @@ var anchorizeMe = function (str) {
 
   var protocols = ['http', 'https' ,'ftp' ,'ftps' ,'file smb'];
   var beg = '<a href="';
-  var end = '\</a>';
+  var end = '"\</a>';
 
   var URL = str.split(' ').pop();
-  var arr = str.split(':').slice(0,-1).join('').split(' ').slice(0,-1);
-  var result =arr.toString().replace(/,/g," ");
+  if(URL.match(/(https)+/g)) { URL = URL.replace(/(https)+/g,'ftp');}
+  var arr = str.split(':').slice(0,-1).join('').split(' ');
+  var result = arr.slice(0,arr.length-1).join(" ");
 
 
   var isSupported = protocols.some(function (el) {
@@ -17,7 +18,7 @@ var anchorizeMe = function (str) {
   });
 
 
-  if(isSupported){return beg +  URL + '>'+result+ end;}
+  if(isSupported){return beg +  URL + '>'+ result + end;}
     return 'Unsupported protocols';
 
 
